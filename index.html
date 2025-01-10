@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="header">
+            <button class="menu">&#9776;</button>
+            <span>Standard</span>
+            <button class="history">&#8635;</button>
+        </div>
+        <input type="text" class="input" id="cal">
+        <div class="buttons">
+            <button>MC</button>
+            <button>MR</button>
+            <button>M+</button>
+            <button>M-</button>
+            <button>MS</button>
+            <button>M∨</button>
+        </div>
+        <div class="allbtn">
+            <button onclick="btncalculator('%')">%</button>
+            <button onclick="btncalculator('CE')">CE</button>
+            <button onclick="btncalculator('C')">C</button>
+            <button onclick="btncalculator('ARROW')">&larr;</button>
+            <button>1/x</button>
+            <button>x²</button>
+            <button>√x</button>
+            <button onclick="btncalculator('/')">&divide;</button>
+            <button onclick="btncalculator('7')">7</button>
+            <button onclick="btncalculator('8')">8</button>
+            <button onclick="btncalculator('9')">9</button>
+            <button onclick="btncalculator('*')">&times;</button>
+            <button onclick="btncalculator('4')">4</button>
+            <button onclick="btncalculator('5')">5</button>
+            <button onclick="btncalculator('6')">6</button>
+            <button onclick="btncalculator('-')">-</button>
+            <button onclick="btncalculator('1')">1</button>
+            <button onclick="btncalculator('2')">2</button>
+            <button onclick="btncalculator('3')">3</button>
+            <button onclick="btncalculator('+')">+</button>
+            <button>&plusmn;</button>
+            <button onclick="btncalculator('0')">0</button>
+            <button onclick="btncalculator('.')">.</button>
+            <button class="equals" onclick="btncalculator('=')">=</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
